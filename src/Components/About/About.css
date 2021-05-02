@@ -1,0 +1,260 @@
+.about_page{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('https://www.codingkida.com/wp-content/uploads/2021/01/software-development-2.gif');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;  
+    padding: 100px 20px;
+}
+.about_page h1{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+.about_page p{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    width:60%;
+    margin: auto;
+}
+.about_myself{
+    width: 40%;
+    margin: 50px auto;
+    border: 1px solid #444;
+}
+.about_myself .about_image img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 280px;
+}
+.about_myself .about_content{
+    padding: 20px;
+}
+.about_myself .about_content h3{
+    color: #444;
+    line-height: 60px;
+    font-size: 25px;
+}
+.about_myself .about_content p{
+    margin-top: 5px;
+}
+.about_myself .about_icon{
+    width:20%;
+    margin: 22px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.about_myself .about_icon i{
+    color: orangered;
+    font-size: 20px;
+    cursor: pointer;
+}
+.my_experience{
+    border: 1px solid orangered;
+    padding: 50px;
+} 
+.my_experience h1{
+    text-align: center;
+    margin-top: 30px;
+    color: orangered;
+}
+.experience_level{
+    width: 70%;
+    margin: 40px auto;
+}
+.experience_level .level{
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #ddd7d7;
+    border-radius: 5px;
+    position: relative;
+    height: 13px;
+}
+.experience_level .level span{
+    text-align: right;
+    color: #444;
+    font-size: 10px;
+    display: block;
+}
+.experience_level h6{
+    text-align: center;
+    margin-bottom: 2px;
+}
+.experience_level .level .span_level::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 144, 103);
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.experience_level .level .span_level1::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 85%;
+    height: 100%;
+    background-color: #444;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.experience_level .level .span_level2::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 75%;
+    height: 100%;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.experience_level .level .span_level3::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 100%;
+    background-color: #ddd;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+.experience_level .level .span_level4::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 75%;
+    height: 100%;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+/* Responsive part start here */
+
+@media (max-width: 768px){
+    .about_myself .about_content{
+        padding: 20px;
+    }
+    .about_myself{
+        width: 60%;
+    }
+    .experience_level .level{
+        width: 70%;
+    }
+    .experience_level{
+        width: 100%;
+        margin: 40px auto;
+    }
+}
+@media (max-width: 425px){
+    .about_page h1 {
+        font-size: 30px;
+    }
+    .about_page p{
+        width: 90%;
+        font-size: 15px;
+    }
+    .about_myself .about_content{
+        padding: 15px;
+    }
+    .about_myself{
+        width: 80%;
+    }
+    .about_myself .about_image img{
+        height: 220px;
+    }
+    .about_myself .about_content h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .experience_level .level{
+        width: 90%;
+    }
+    .experience_level{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .about_myself .about_icon{
+        width:30%;
+    }
+}
+@media (max-width: 375px){
+    .about_page p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .about_myself{
+        width: 90%;
+        height: 420px;
+    }
+    .about_myself .about_image img{
+        height: 200px;
+    }
+    .about_myself .about_content h3{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .about_myself .about_content p{
+        font-size: 15px;
+    }
+    .my_experience{
+        height: 500px;
+    }
+    .experience_level .level{
+        width: 100%;
+    }
+    .experience_level{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .about_myself .about_icon{
+        width: 40%;
+    }
+}
+@media (max-width: 320px){
+    .about_page h1{
+        font-size: 25px;
+        line-height: 50px;
+    }
+    .about_page p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .about_myself{
+        width: 95%;
+        height: 400px;
+    }
+    .about_myself .about_image img{
+        height: 200px;
+    }
+    .about_myself .about_content h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .about_myself .about_content p{
+        font-size: 14px;
+    }
+    .my_experience{
+        height: 500px;
+        width: 95%;
+    }
+    .experience_level .level{
+        width: 100%;
+    }
+    .experience_level{
+        width: 100%;
+        margin: 40px auto;
+    }
+}

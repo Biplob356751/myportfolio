@@ -1,0 +1,67 @@
+.portfolio_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.portfolio_banner{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('https://images.pexels.com/photos/2536965/pexels-photo-2536965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    height: 380px;
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.portfolio_banner h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.portfolio_banner p{
+    width:60%;
+    margin: 10px auto;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    font-size: 18px;
+}
+/* Responsive part here */
+@media (max-width: 768px){
+    .portfolio_banner{
+        height: 300px;
+    }
+    .portfolio_banner h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .portfolio_banner p{
+        width:80%
+    }
+}
+@media (max-width: 425px){
+    .portfolio_banner{
+        height: 300px;
+    }
+    .portfolio_banner h1{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .portfolio_banner p{
+        width: 100%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 320px){
+    .portfolio_banner{
+        height: 300px;
+    }
+    .portfolio_banner h1{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .portfolio_banner p{
+        width: 100%;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "price": 20,
+        "title": "Basic Plan",
+        "subtitle": "PHD TO HTML",
+        "page": "1 page",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+    },
+    {
+        "price": 40,
+        "title": "Beginner Plan",
+        "subtitle": "HTML TO REACT",
+        "page": "5 page",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+    },
+    {
+        "price": 100,
+        "title": "Premium Plan",
+        "subtitle": "Single Page Application",
+        "page": "10 page",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+    }
+]

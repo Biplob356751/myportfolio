@@ -1,0 +1,45 @@
+img{
+    width: 100%;
+    height: 250px;
+}
+.my_portfolio{
+    width:30%;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+}
+.portfolio_content{
+    padding: 10px;
+}
+h3{
+    color: orangered;
+    font-size: 17px;
+    line-height: 35px;
+}
+p{
+    opacity: .7;
+}
+/* Responsive part here */
+@media (max-width: 1024px){
+    img{
+        width: 100%;
+        height: 200px;
+    }
+}
+@media (max-width: 768px){
+    img{
+        width: 100%;
+        height: 230px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .my_portfolio{
+        width:100%;
+        margin-top: 30px;
+        border: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+}

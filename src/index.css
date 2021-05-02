@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 55px 0;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.container_fluid{
+  width: 90%;
+  margin: auto;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear_fix::after{
+  content: "";
+  display: block;
+  clear: both;
+}

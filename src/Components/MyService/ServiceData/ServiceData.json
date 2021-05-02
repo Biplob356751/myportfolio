@@ -1,0 +1,44 @@
+[
+    {
+        "title": "WEB DESIGN",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-university"
+    },
+    {
+        "title": "Web devlopment",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-american-sign-language-interpreting"
+    },
+    {
+        "title": "PSD TO HTML",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cart-plus"
+    },
+    {
+        "title": "PSD TO REACT TEMPLATE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cubes"
+    },
+    {
+        "title": "Responsive Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cubes"
+    },
+    {
+        "title": "FRONTEND DESIGN",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cubes"
+    },
+    {
+        "title": "Next JS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cubes"
+    },
+    {
+        "title": "Clean Cooding Experience",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat vestibulum quam, ac dapibus libero hendrerit vitae. Nullam nisi dolor, feugiat ut ante sit amet, placerat vehicula ligula.",
+        "icon": "fa fa-cubes"
+    }
+    
+
+]
