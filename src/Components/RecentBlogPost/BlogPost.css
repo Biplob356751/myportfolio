@@ -53,6 +53,31 @@
         font-size: 12px;
     }
 }
+@media (max-width: 512px){
+    .recent_post{
+        width: 96%;
+        padding-bottom: 20px;
+        border: 1px solid orangered;
+        margin-top: 20px;
+    }
+    .recent_post .single_post span{
+        width: 50%;
+        float: left;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .recent_post .single_post p{
+        font-size: 17px;
+        width: 95%;
+        margin-top: 10px;
+    }
+    .recent_post .single_post h4{
+        font-size: 20px;
+    }
+    .recent_post img{
+        height: 220px;
+    }
+}
 @media (max-width: 425px){
     .recent_post{
         width: 90%;

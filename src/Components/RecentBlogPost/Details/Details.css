@@ -97,6 +97,21 @@
         height: 200px;
     }
 }
+@media (max-width: 512px){
+    .details_page .details_post img{
+        height: 200px;
+    }
+    .details_page .comment_section textarea{
+        margin-top: 30px;
+        width:90%;
+        height: 160px;
+    }
+    .details_page .details_post h2{
+        margin-top: 20px;
+        color: #444;
+        font-size: 1.5rem;
+    }
+}
 @media (max-width: 425px){
     .details_page .details_post img{
         height: 200px;

@@ -66,6 +66,34 @@
         color: orangered;
         font-weight: bold;
         font-size: 14px;
+    } 
+}
+@media (max-width: 512px){
+    .single_blogs_post{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .single_blogs_post img{
+        width: 100%;
+        height: 220px;
+    }
+    .single_blogs_post .single_post h4{
+        line-height: 40px;
+        font-size: 25px;
+    }
+    .single_blogs_post .single_post p{
+        font-size: 16px;
+    }
+    .single_blogs_post .single_post span{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .single_blogs_post .single_post a{
+        margin-top: 50px;
+        display: block;
+        color: orangered;
+        font-weight: bold;
+        font-size: 15px;
     }
     
 }

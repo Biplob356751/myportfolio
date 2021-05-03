@@ -15,7 +15,6 @@
 .project{
     position: relative;
     width: 98%;
-    margin-left: 4%;
 }
 .project .project_image p{
     width: 90%;
@@ -51,6 +50,25 @@
         color: #444;
         font-weight: 400;
         font-size: 14px;
+    }
+}
+@media (max-width: 512px){
+    .project .project_image img{
+        width: 100%;
+        height: 120px;
+        display: block;
+        margin: auto;
+    }
+    .project .project_image h2{
+        margin-top: 12px;
+        color: orangered;
+        font-size: 18px;
+    }
+    .project{
+        height: 180px;
+    }
+    .project h2{
+        font-size: 15px !important;
     }
 }
 @media (max-width: 425px){

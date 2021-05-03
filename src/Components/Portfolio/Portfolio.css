@@ -27,6 +27,18 @@
     font-size: 18px;
 }
 /* Responsive part here */
+@media (max-width: 912px){
+    .portfolio_banner{
+        height: 300px;
+    }
+    .portfolio_banner h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .portfolio_banner p{
+        width:80%
+    }
+}
 @media (max-width: 768px){
     .portfolio_banner{
         height: 300px;

@@ -102,6 +102,36 @@
         margin-top: 13px;
     }
 }
+@media (max-width: 512px) {
+    .my_service{
+        float: left;
+        width: 100%;
+        margin: 10px auto !important;
+        padding: 20px 10px 10px 10px;
+        border: 1px solid #e9e9e9;
+        text-align: center;
+        border-radius: 4px;
+        height: 250px;
+    }
+    .my_service i{
+        color: orangered;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 50px;
+        cursor: pointer;
+    }
+    .my_service h3{
+        color: #444;
+        line-height: 20px;
+        font-size: 23px;
+    }
+    .my_service p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #585353;
+        margin-top: 13px;
+    }
+}
 @media (max-width: 425px) {
     .my_service{
         float: left;
